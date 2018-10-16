@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image:  linear-gradient(#d2d2d2, #f4f4f4 280px, #d2d2d2);
+	height: 800px;
+	font-family: arial, sans-serif;
+	color: #6e6e6e;
+}
+a {
+	text-decoration: none;
+	color: #6e6e6e;
+}
+.wrapper {
+	width: 850px;
+	margin: 0 auto;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: -2px;
+}
+.header-page {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-menu {
+	display: flex;
+	padding: 13px 20px;
+	background-image:  linear-gradient(#c9c9c9, #b1b1b1);
+	border-radius: 10px;
+	border: 2px groove #dfdfdf;
+	box-shadow: 3px 3px 5px #a8a8a8;
+}
+.header-menu a {
+	display: block;
+	padding: 8px 15px;
+}
+.active,
+.header-menu a:hover {
+	color: #fff;
+	background: #8f8f8f;
+	border-radius: 8px;
+	box-shadow: 1px 1px 3px #d4d4d4;
+}
+.header-menu li {
+	margin-right: 5px;
+}
+.header-menu li:last-child {
+	margin-right: 0;
+}
+.parametr {
+	display: flex;
+	justify-content: space-between;
+	
+}
+.parametr-des li {
+	display: flex;
+	margin-bottom: 30px;
+	width: 470px;
+	height: 70px;
+}
+.parametr-des {
+	padding-top: 30px
+}
+.des-text {
+	margin-left: 15px;
+}
+h3 {
+	font-size: 20px;
+}
+.phone-content {
+	position: relative;
+	padding-bottom: 30px;
+	margin-left: 600px;
+	margin-top: -80px;
+	margin-bottom: 120px;
+}
+.phone {
+	position: absolute;
+	border-radius: 10px;
+	background: repeating-linear-gradient(-45deg, #c9c9c9, #b1b1b1 15px) fixed;
+	border: 2px groove #dfdfdf;
+	width: 250px;
+	height: 120px;
+	box-shadow: 3px 3px 5px #a8a8a8;
+}
+.phone-img {
+	margin-top: 5px;
+	height: 100px;
+}
+.t1 {
+	font-size: 15px;
+	margin-left: 80px;
+	margin-top: -65px;
+}
+.t2 {
+	font-size: 35px;
+	margin-left: 80px;
+}
+.content {
+	display: flex;
+	align-items: center;
+}
+h1 {
+	font-size: 35px;
+	color: #000;
+}
+.content hr {
+	flex-grow: 1;
+	margin-left: 20px; 
+}
+
+.content-text {
+    padding-top: 30px;
+}
+.content-img {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.line {
+	width: 700px;
+	height: 2px;
+	background-image: linear-gradient(to right, transparent, #777, transparent);
+	border-radius: 50%;
+	margin: 0 auto;
+}
